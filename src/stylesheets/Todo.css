@@ -1,0 +1,56 @@
+.button {
+    width: 50px;
+    height: 25px;
+    font-size: 25px;
+}
+
+.button:hover {
+    width: 60px;
+    height: 35px;
+}
+
+.checkbox {
+    -webkit-appearance:none;
+    height:1.5em;
+    width:1.5em;
+    cursor:pointer;
+    position:relative;
+    -webkit-transition: .10s;
+    border-radius:4em;
+    background-color:red;
+    margin-top: 30px;
+}
+
+.checkbox:checked {
+    background-color:blue;
+}
+
+.checkbox:before, .checkbox:checked:before {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    line-height:1.5em;
+    text-align:center;
+    color:white;
+}
+
+.checkbox:checked:before {
+    content: '✔';
+}
+
+.span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.todo {
+    background-color: yellow;
+    width: 30vw;
+    height: 25vh;
+    padding: 10px;
+    float: left;
+    margin: 10px;
+}

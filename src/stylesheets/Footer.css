@@ -1,0 +1,23 @@
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: yellow;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    right: 0;
+    overflow: hidden;
+}
+
+#author {
+    margin-left: 30vw;
+}
+
+.button {
+    margin-right: 20px;
+    margin-top: 10px;
+}

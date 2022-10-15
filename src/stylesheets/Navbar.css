@@ -1,0 +1,39 @@
+#navbar {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    height: 110px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#navbar-right {
+    margin-top: 20px;
+}
+
+.button {
+    margin-left: 10px;
+}
+
+#search-bar {
+    outline: none;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+#title {
+    text-decoration: underline;
+}
+
+a {
+    color: deeppink;
+}
+
+a:visited {
+    color: deeppink;
+}
