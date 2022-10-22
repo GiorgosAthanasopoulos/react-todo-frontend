@@ -29,11 +29,3 @@
 #title {
     text-decoration: underline;
 }
-
-a {
-    color: deeppink;
-}
-
-a:visited {
-    color: deeppink;
-}
